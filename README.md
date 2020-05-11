@@ -8,7 +8,7 @@ I use it as a Stream Deck using OBS for Twitch/YouTube streaming. I set the "key
 
 It will work everywhere in Windows, and just acts like a standard USB keyboard inserting the shortcuts as though you yourself pressed it on your primary keyboard.
 
-Number of buttons doesn't matter, you can do more or less, as long as you have enough inputs and modify the code appropriately to add/remove them.
+Number of buttons doesn't matter, you can do more or less, as long as you have enough inputs and modify the code appropriately to add/remove them. Diagram below shows 8, but the code here is currently set up for 7 as that's all I ended up using.
 
 ## Wiring Diagram
 
