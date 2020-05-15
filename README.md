@@ -27,7 +27,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 ## Photos
 
-3D printed case STL is [included here](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
+3D printed case STL is [included here](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase.stl), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
 
 ![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboard1.jpg)
 
