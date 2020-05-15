@@ -2,7 +2,7 @@
 
 A macro keyboard made of arcade buttons. Acts like a normal USB keyboard, but each arcade button runs multi-key macros/shortcuts.
 
-Example use:
+## Example Use
 
 I use it as a Stream Deck using OBS for Twitch/YouTube streaming and Jitsi video calls. I set the "keyCodes" in the code to numbers 1-7 (ASCII 49-55), and the modifiers to CTRL, ALT, and SHIFT. Pressing arcade button 1 then sends the macro CTRL+ALT+SHIFT+1 to Windows, which I have mapped in OBS to switch to Scene 1. Etc etc.
 
