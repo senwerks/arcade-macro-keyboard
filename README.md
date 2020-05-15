@@ -12,7 +12,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 ## Wiring Diagram
 
-![Arcade Macro Keyboard Diagram](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/WiringDiagram.png)
+![Arcade Macro Keyboard Diagram](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/Meta/WiringDiagram.png)
 
 ## Installation
 
@@ -21,7 +21,7 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 3. Open up your OBS Settings and go to Hotkeys (this assumes you already have scenes set up)
 4. Click on each of your scene's "Switch to Scene" entry, and press one of the buttons on the macro board to insert that button's shortcut combo
 
-![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/MappingButtonsInOBS.png)
+![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/Meta/MappingButtonsInOBS.png)
 
 5. Click OK
 
@@ -29,8 +29,8 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 3D printed case STL is [included here](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase.stl), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
 
-![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboard1.jpg)
+![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/Meta/ArcadeMacroKeyboard1.jpg)
 
-![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboard2.jpg)
+![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/Meta/ArcadeMacroKeyboard2.jpg)
 
-![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboard3.jpg)
+![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/Meta/ArcadeMacroKeyboard3.jpg)
