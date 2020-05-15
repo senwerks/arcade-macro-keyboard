@@ -25,6 +25,10 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 
 5. Click OK
 
+## Arduino
+
+Want to use the Arduino IDE instead of VS Code? The .cpp file in /src should work fine as-is, or you can visit the [Arcade Macro Keyboard Sketchbook](https://create.arduino.cc/editor/obsoletenerd/15b42f98-5e19-4aff-b1d9-8078c02f6f8f/preview) on Arduino.cc to install the code directly from the browser to your Arduino Nano.
+
 ## Photos
 
 3D printed case STL is [included here](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase.stl), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
