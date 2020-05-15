@@ -11,11 +11,6 @@ Acts like a standard USB Keyboard in Windows.
 #include <Arduino.h>
 #include <Keyboard.h>
 
-// Modifiers for key combos (https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers)
-char ctrlKey = KEY_LEFT_CTRL;
-char altKey = KEY_LEFT_ALT;
-char shiftKey = KEY_LEFT_SHIFT;
-
 #define buttonAmount 7 // How many buttons do you have total
 
 int buttonPins[] = { 2, 3, 4, 5, 6, 7, 8 }; // Pins the buttons are connected to
@@ -33,13 +28,14 @@ void loop() {
   for (int i = 0; i < buttonAmount; i++) {
     buttonState[i] = digitalRead(buttonPins[i]);
     if (buttonState[i] == LOW){ // Check if a button has been pressed, and if so, perform the combo + the initialised button's associated ASCII code
+      // Modifiers for key combos (https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers)
       Keyboard.press(KEY_LEFT_CTRL);
       Keyboard.press(KEY_LEFT_ALT);
       Keyboard.press(KEY_LEFT_SHIFT);
       Keyboard.press(keyCodes[i]);
       delay(100);
       Keyboard.releaseAll();
-      delay(1000); // Ghetto-debouncer
+      delay(1000); // Ghetto-debouncer (Only allows one button press per second)
     }
   }
 }
