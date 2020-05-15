@@ -20,13 +20,16 @@ Number of buttons doesn't matter, you can do more or less, as long as you have e
 2. Plug the USB cable into your PC
 3. Open up your OBS Settings and go to Hotkeys (this assumes you already have scenes set up)
 4. Click on each of your scene's "Switch to Scene" entry, and press one of the buttons on the macro board to insert that button's shortcut combo
-5. Click OK
 
 ![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/MappingButtonsInOBS.png)
 
+5. Click OK
+
 ## Photos
 
-![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboard1.pjpg)
+3D printed case STL is [included here](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboardCase), but it's very basic. Print it top down, no supports or anything needed. I'll probably design a nicer one at some point.
+
+![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboard1.jpg)
 
 ![OBS Hotkeys](https://github.com/obsoletenerd/arcade-macro-keyboard/blob/master/ArcadeMacroKeyboard2.jpg)
 
