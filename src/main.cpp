@@ -37,8 +37,9 @@ void loop() {
       Keyboard.press(KEY_LEFT_ALT);
       Keyboard.press(KEY_LEFT_SHIFT);
       Keyboard.press(keyCodes[i]);
-      delay(100); // Give it a (micro)second to register
-      Keyboard.releaseAll(); // Release all keys
+      delay(100);
+      Keyboard.releaseAll();
+      delay(1000); // Ghetto-debouncer
     }
   }
 }
